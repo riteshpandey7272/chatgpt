@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;500;600;700&family=Poppins:ital,wght@0,400;0,500;1,300;1,400;1,500&display=swap');
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  --bg-color: #CCCCFF;
+  --nav-bg-color: #5D3FD3;
+  --font-family: 'Poppins', sans-serif;
+  --nav-link-hover: #FFEA47;
+  --logo-span-color: #ff8046;
+}
+body {
+  background-image:url('https://images.unsplash.com/photo-1673337816356-67260256a4ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2429&q=80');
+}
+
+.app-main{
+  background: -webkit-linear-gradient(to right, #904e95, #e96443);
+  background: linear-gradient(to right, #904e95, #e96443);
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: var(--nav-bg-color);
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+.logo {
+   font-weight: 700;
+   font-size: 38px;
+   margin: auto;
+}
+.logo span {
+  color: var(--logo-span-color);
+}
+
+
+.heading{
+  font-family: Poppins;
+  color: black;
+  font-size: 40px;
+  text-decoration: solid;
+}
+.grid-main{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+.grid-child{
+  border: 2px solid black;
+  color: black;
+  border-radius: 16px;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.grid-child:hover{
+  background-color: aqua;
+  color: #212121;
+
+}
+.grid-child h3{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 15px;
+}
+.grid-child p{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 15px;
+}
+.text-area{
+  font-size: 20px;
+  padding: 10px;
+  font-family: poppins;
+  margin: 2rem;
+}
+.action-btn{
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.action-btn:hover{
+  background-color: aquamarine;
+}
+
+footer{
+  background-color: #272727;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 30px;
+  margin-top: auto;
+}
+.cpr{
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px;
+  font-family: poppins;
+  text-decoration: solid;
+}
+
+.footer-copyright{
+  background-color:#52527a;
+  color: #ffffff;
+  padding: 15px;
+  margin-top: 30px;
+  text-transform: capitalize;
+}
+
+.footer-copyright p{
+  margin-bottom: 0px;
+}
+
+
+
+
