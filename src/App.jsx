@@ -39,8 +39,8 @@ function App() {
     
     <div className="app-main" id='app-main'>
       
-      <nav class="navbar">
-        <h1 class="logo"><span>PANDEY</span> G</h1>
+      <nav className="navbar">
+        <h1 className="logo"><span>PANDEY</span> G</h1>
       </nav>
 
 
@@ -52,12 +52,12 @@ function App() {
 
       <footer>
         <div>
-          <p className='cpr'>
+          <p classNameName='cpr'>
             This React AI APP work on ChatGPT(Open AI), it's build by PandeyG in React. 
           </p>
         </div>
   
-        <div class="footer-copyright">
+        <div className="footer-copyright">
             <p>Copyright @ 2023 All Rights Reserved To PandeyG.</p>
         </div>
       </footer>
